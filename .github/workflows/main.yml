@@ -14,6 +14,7 @@ jobs:
       uses: actions/setup-java@v3
       with:
         java-version: '24'
+        distribution: 'temurin'  # <-- MUST specify
 
     - name: Build with Maven
       run: mvn clean install
