@@ -4,7 +4,7 @@
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.2-green)
 ![MongoDB](https://img.shields.io/badge/MongoDB-6.0-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
-![Java CI](https://github.com/yourusername/personal-expense-tracker/actions/workflows/github_actions_ci.yml/badge.svg)
+[![Java CI](https://github.com/chrisskan/expense-tracker/actions/workflows/main.yml/badge.svg)](https://github.com/chrisskan/expense-tracker/actions/workflows/main.yml)
 
 A **Personal Expense Tracker** built with **Java Spring Boot** and **MongoDB**. 📝💰
 Track your expenses by **business**, **category**, **amount**, and **date**.
