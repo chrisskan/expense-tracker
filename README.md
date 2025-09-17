@@ -6,6 +6,7 @@
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.2-green)
 ![MongoDB](https://img.shields.io/badge/MongoDB-6.0-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
+![Java CI](https://github.com/yourusername/personal-expense-tracker/actions/workflows/github_actions_ci.yml/badge.svg)
 
 A **Personal Expense Tracker** built with **Java Spring Boot** and **MongoDB**. 📝💰
 Track your expenses by **business**, **category**, **amount**, and **date**.
@@ -15,23 +16,20 @@ Designed as a **portfolio project** to demonstrate clean architecture, REST API 
 
 ## Features ⭐
 
-* Add, retrieve, and delete expenses
-* Query expenses by:
-
-  * Business name (case-insensitive, partial match)
-  * Category
-  * Amount (≥ minimum)
-  * Date range
-* Layered architecture:
-
-  * **Controller** → REST endpoints
-  * **Service** → Business logic
-  * **Repository** → MongoDB data access
-* Unit tests for:
-
-  * Repository queries
-  * Service layer
-  * Controller endpoints
+- Add, retrieve, and delete expenses
+- Query expenses by:
+  - Business name (case-insensitive, partial match)
+  - Category
+  - Amount (≥ minimum)
+  - Date range
+- Layered architecture:
+  - **Controller** → REST endpoints
+  - **Service** → Business logic
+  - **Repository** → MongoDB data access
+- Unit tests for:
+  - Repository queries
+  - Service layer
+  - Controller endpoints
 
 ---
 
@@ -48,12 +46,12 @@ Designed as a **portfolio project** to demonstrate clean architecture, REST API 
 
 ## Tech Stack 🛠️
 
-* Java 17+
-* Spring Boot 3+
-* Spring Data MongoDB
-* MongoDB (local or Docker)
-* JUnit 5 + Mockito for testing
-* Maven
+- Java 17+
+- Spring Boot 3+
+- Spring Data MongoDB
+- MongoDB (local or Docker)
+- JUnit 5 + Mockito for testing
+- Maven
 
 ---
 
@@ -101,9 +99,9 @@ src/test/java/com/example/expensetracker
 
 ### Prerequisites
 
-* Java 17+
-* Maven
-* MongoDB running locally or via Docker
+- Java 17+
+- Maven
+- MongoDB running locally or via Docker
 
 ### Running the project
 
@@ -136,16 +134,16 @@ http://localhost:8080/api/expenses
 
 ## API Endpoints 🌐
 
-| Method | Endpoint                                            | Description              |
-| ------ | --------------------------------------------------- | ------------------------ |
-| POST   | `/api/expenses`                                     | Create an expense        |
-| GET    | `/api/expenses`                                     | Get all expenses         |
-| GET    | `/api/expenses/{id}`                                | Get expense by ID        |
-| DELETE | `/api/expenses/{id}`                                | Delete expense           |
-| GET    | `/api/expenses/search/business?fragment={text}`     | Search by business       |
-| GET    | `/api/expenses/search/category?category={category}` | Search by category       |
-| GET    | `/api/expenses/search/amount?minAmount={amount}`    | Search by minimum amount |
-| GET    | `/api/expenses/search/date?from={from}&to={to}`     | Search by date range     |
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST   | `/api/expenses` | Create an expense |
+| GET    | `/api/expenses` | Get all expenses |
+| GET    | `/api/expenses/{id}` | Get expense by ID |
+| DELETE | `/api/expenses/{id}` | Delete expense |
+| GET    | `/api/expenses/search/business?fragment={text}` | Search by business |
+| GET    | `/api/expenses/search/category?category={category}` | Search by category |
+| GET    | `/api/expenses/search/amount?minAmount={amount}` | Search by minimum amount |
+| GET    | `/api/expenses/search/date?from={from}&to={to}` | Search by date range |
 
 ---
 
@@ -157,21 +155,20 @@ Run unit tests:
 mvn test
 ```
 
-* Repository queries
-* Service logic
-* Controller endpoints
+- Repository queries
+- Service logic
+- Controller endpoints
 
 ---
 
 ## Notes 📝
 
-* `amount` is stored as **Double**
-* Built as a **portfolio project**, showcasing:
-
-  * Spring Boot REST API
-  * MongoDB integration
-  * Layered architecture
-  * Unit testing best practices
+- `amount` is stored as **Double**
+- Built as a **portfolio project**, showcasing:
+  - Spring Boot REST API
+  - MongoDB integration
+  - Layered architecture
+  - Unit testing best practices
 
 ---
 
