@@ -1,5 +1,3 @@
-# README.md
-
 # Personal Expense Tracker
 
 ![Java](https://img.shields.io/badge/Java-17+-blue)
