@@ -93,8 +93,6 @@ src/test/java/com/example/expensetracker
 
 ---
 
-## Getting Started 🚀
-
 ### Prerequisites
 
 - Java 24
