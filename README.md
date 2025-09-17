@@ -1,6 +1,6 @@
 # Personal Expense Tracker
 
-![Java](https://img.shields.io/badge/Java-17+-blue)
+![Java](https://img.shields.io/badge/Java-24-blue)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.2-green)
 ![MongoDB](https://img.shields.io/badge/MongoDB-6.0-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
