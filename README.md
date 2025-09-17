@@ -97,7 +97,7 @@ src/test/java/com/example/expensetracker
 
 ### Prerequisites
 
-- Java 17+
+- Java 24
 - Maven
 - MongoDB running locally or via Docker
 
@@ -160,8 +160,6 @@ mvn test
 ---
 
 ## Notes 📝
-
-- `amount` is stored as **Double**
 - Built as a **portfolio project**, showcasing:
   - Spring Boot REST API
   - MongoDB integration
