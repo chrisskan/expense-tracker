@@ -99,7 +99,7 @@ class ExpenseControllerTest {
     void testFindByAmountGreaterThanEqual() {
         when(expenseService.findByAmountGreaterThanEqual(3.0)).thenReturn(List.of(coffeeExpense));
 
-        ResponseEntity<List<Expense>> response = expenseController.findByAmountGreaterThanEqual(3.0);
+        ResponseEntity<List<Expense>> response = expenseController.findByAmountGreaterThanEqual(3.00);
 
         assertThat(response.getBody()).containsExactly(coffeeExpense);
     }
