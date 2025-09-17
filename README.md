@@ -44,7 +44,7 @@ Designed as a **portfolio project** to demonstrate clean architecture, REST API 
 
 ## Tech Stack 🛠️
 
-- Java 17+
+- Java 24
 - Spring Boot 3+
 - Spring Data MongoDB
 - MongoDB (local or Docker)
